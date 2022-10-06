@@ -1,8 +1,8 @@
 .table-ruwiki{
-    border: 4px;
-    border-color: #aabbcc;
+    border: 0.3vw;
+    border-color: #8bb0d5;
     border-style: solid;
-    border-bottom: groove 6px;
+    border-bottom: #8bb0d5 groove 0.5vw;
     padding-bottom: 10px;
     padding-top: 10px;
     box-shadow: 0 2px 2px 0 rgba( 0, 0, 0, 0.25 );
@@ -18,10 +18,12 @@
 
 .table-content-png-ruwiki{
     padding-right: 0.3vw;
-    width: 2vw;
-    max-width: 2vw;
-    min-width: 2vw;
-    height: auto;
+    width: 16px;
+    height: 16px;
+    /*width: 2vw;*/
+    max-width: 1.5vw;
+    min-width: 1.5vw;
+    height: auto;*
 }
 
 .table-button-ruwiki{
@@ -36,4 +38,7 @@
 
 .table-link-ruwiki{
     text-decoration: none;
+}
+.table-td-ruwiki{
+    width: 25px;
 }
