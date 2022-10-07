@@ -12,17 +12,17 @@
 
 .table-text-ruwiki{
     font-family: Arial;
-    font-size: 3vw;
-    padding-left: 10px;
+    font-size: 2vw;
+    padding-left: 5px;
 }
 
 .table-content-png-ruwiki{
-    padding-right: 0.3vw;
+    padding-right: 0.15vw;
     width: 16px;
     height: 16px;
     /*width: 2vw;*/
-    max-width: 1.5vw;
-    min-width: 1.5vw;
+    max-width: 1vw;
+    min-width: 1vw;
     height: auto;*
 }
 
@@ -30,7 +30,7 @@
     border: none;
     background-color: #ffffff;
     font-family: Arial;
-    font-size: 2vw;
+    font-size: 1.5vw;
     /*padding-top: 15px;
     padding-bottom: 15px;*/
     color: black;
@@ -41,4 +41,23 @@
 }
 .table-td-ruwiki{
     width: 25px;
+}
+
+.news-main{
+    border: 1px;
+    border-color: #cccccc;
+    border-style: solid;
+    font-family: Arial;
+    font-size: 1vw;
+}
+
+.news-main-text{
+    text-align: center;
+    background-color: #8bb0d5;
+    box-shadow: 2px 2px #5f9bd7;
+    font-size: 1.3vw;
+}
+
+.news-list{
+    margin-left: -10px;
 }
